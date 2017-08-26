@@ -13,7 +13,10 @@ import cucumber.api.junit.Cucumber;
 		tags = "@Staytest_125",
 		dryRun = false
 		
-		// making a change
+		/* clean version
+		 * changed dryRun to true
+		 */
+		
 		)
 public class CukesRunner {
 
