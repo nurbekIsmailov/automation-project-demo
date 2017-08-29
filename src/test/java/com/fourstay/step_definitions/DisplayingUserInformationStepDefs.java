@@ -70,7 +70,7 @@ public class DisplayingUserInformationStepDefs {
 
 	@When("^I click the search button$")
 	public void i_click_the_search_button() throws Throwable {
-		homepPage.search.click();
+		homepPage.mySearch.click();
 
 		Thread.sleep(5000);
 	}
@@ -96,7 +96,7 @@ public class DisplayingUserInformationStepDefs {
 		homepPage.schoolName.sendKeys(input.get("schools"));
 		homepPage.startDate.sendKeys(input.get("start"));
 		homepPage.endDate.sendKeys(input.get("end"));
-		homepPage.search.click();
+		homepPage.mySearch.click();
 
 	}
 

@@ -34,6 +34,6 @@ public class HomePage {
 	public WebElement endDate;
 
 	@FindBy(id = "search")
-	public WebElement search;
+	public WebElement mySearch;
 
 }
