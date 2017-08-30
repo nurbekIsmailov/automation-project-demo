@@ -10,14 +10,16 @@ import cucumber.api.junit.Cucumber;
 		plugin = "html:target/cucumber-reports",
 		features = "src/test/resources/features", 
 		glue = "com/fourstay/step_definitions", 
-		tags = "@smoke",
-		dryRun = true
+
+		tags = "@Staytest_125"
+		dryRun = false
 		
 		/* clean version
-		 * changed dryRun to true
-		 * changed tag to smoke
+		 * changed dryRun to false
+		 * changed tag to Staytest_125
 		 */
 		
+		// new push
 		)
 public class CukesRunner {
 
