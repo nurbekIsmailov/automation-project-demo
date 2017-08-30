@@ -10,11 +10,12 @@ import cucumber.api.junit.Cucumber;
 		plugin = "html:target/cucumber-reports",
 		features = "src/test/resources/features", 
 		glue = "com/fourstay/step_definitions", 
-		tags = "@Staytest_125",
-		dryRun = false
+		tags = "@smoke",
+		dryRun = true
 		
 		/* clean version
 		 * changed dryRun to true
+		 * changed tag to smoke
 		 */
 		
 		)
